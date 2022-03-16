@@ -33,7 +33,7 @@ const Main = () => {
             <p>Power</p>
             <p>1600W</p>
         </div>
-            <a href='https://bluclixmedia.o18.click/c?o=17096764&m=5315&a=325185&sub_aff_id={pavan}' target={"_blank"}>More product details</a>
+            <a rel="noreferrer" href='https://bluclixmedia.o18.click/c?o=17096764&m=5315&a=325185&sub_aff_id={pavan}' target={"_blank"}>More product details</a>
     </div>
   )
 }

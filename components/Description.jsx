@@ -24,7 +24,7 @@ const Description = () => {
                 <li><span>Cable length (m):</span> 2.8m</li>
                 <li><span>Weight:</span> 680g</li>
             </div> 
-            <a href='https://bluclixmedia.o18.click/c?o=17096764&m=5315&a=325185&sub_aff_id={pavan}' target={"_blank"}><button>Get It Now</button></a>
+            <a rel="noreferrer" href='https://bluclixmedia.o18.click/c?o=17096764&m=5315&a=325185&sub_aff_id={pavan}' target={"_blank"}><button>Get It Now</button></a>
         </div>
     </div>
   )
