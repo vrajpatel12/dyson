@@ -13,4 +13,697 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+}
+
+.header {
+  width: 80%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  height: auto;
+  padding: 1rem 0rem;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 5rem;
+  height: auto;
+  margin-right: 2rem;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+
+nav li {
+  list-style: none;
+  color: white;
+}
+
+.search {
+  width: 20%;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+}
+
+.search input {
+  width: 80%;
+  background: none;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+/* offer */
+
+.offer {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header hr {
+  width: 100%;
+  height: 0.5px;
+  background-color: gray;
+  border: none;
+}
+
+.offer h2 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.offer button {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #68a023;
+  border: none;
+}
+
+/* hero */
+
+.hero {
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper-hero {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.active {
+  border: 1px solid gray;
+}
+
+.gallary {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.main-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.main-img img,
+.list-img img {
+  width: 100%;
+  height: auto;
+}
+
+.list-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-img .img {
+  width: 24%;
+  height: auto;
+  padding: 0.3rem;
+  /* border: 1px solid black; */
+  box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+}
+
+.main {
+  width: 25%;
+  height: auto;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.main h1 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.main h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+  padding: 0.3rem 1rem;
+}
+
+.price {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 1rem;
+}
+
+.discount {
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding-top: 0.2rem;
+  padding-bottom: 1rem;
+  width: 80%;
+  text-align: center;
+  height: auto;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.mrp {
+  position: absolute;
+  padding: 0.5rem 2rem;
+  border: 1px solid black;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 80%;
+}
+
+.mrp h2 {
+  background: none;
+  color: black;
+  font-size: 2rem;
+  font-weight: 800;
+  /* margin-top: 0.5rem; */
+}
+
+.main .mrp h3 {
+  font-size: 1rem;
+  color: black;
+}
+
+.main h3 {
+  color: #2bb04a;
+  font-weight: 500;
+}
+
+.spec {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.spec p:nth-child(1) {
+  font-weight: 700;
+}
+
+.main a {
+  text-decoration: underline;
+  color: blue;
+  margin-top: 1rem;
+}
+
+.form-main {
+  width: 30%;
+  height: auto;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.form-main h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  background-color: whitesmoke;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.name {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first {
+  width: 49%;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid gray;
+  margin-bottom: 1rem;
+}
+
+.form-main button {
+  width: 100%;
+  height: 3rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #2bb04a;
+  border: none;
+}
+
+.middle {
+  width: 100%;
+  height: auto;
+}
+
+.banner-middle {
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: url("/middle.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position-x: center;
+}
+
+.content {
+  width: 100%;
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.middle .content h2 {
+  width: 50%;
+  margin: 0rem 0rem;
+  margin-bottom: 1rem;
+}
+.content p {
+  width: 50%;
+  margin-bottom: 1rem;
+}
+.content a {
+  width: 40%;
+}
+
+button {
+  cursor: pointer;
+}
+.content a button {
+  width: 100%;
+  height: 3rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #2bb04a;
+  border: none;
+}
+
+.middle h2 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.list-middle {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 1rem;
+}
+
+.card {
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border: 0.21px solid rgb(240, 240, 240);
+}
+.card-img img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.banner {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  background: url("/banner.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner .content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.banner .content h2,
+.banner .content p {
+  width: 50%;
+  color: white;
+}
+.banner .content h2 {
+  margin-bottom: 1rem;
+}
+
+.attachments {
+  width: 100%;
+  padding-top: 5rem;
+}
+
+.attachments h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper-attachments {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.attach-image {
+  width: 48%;
+  height: auto;
+  border: 0.51px solid whitesmoke;
+}
+
+.attach-image img {
+  width: 100%;
+  height: auto;
+}
+
+.attach-content {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.desc {
+  width: 100%;
+  height: auto;
+  padding-top: 2rem;
+}
+
+.wrapper-desc {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  height: auto;
+}
+
+.wrapper-desc h2 {
+  width: 100%;
+  padding: 1rem;
+  background-color: whitesmoke;
+  color: black;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.inner-desc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.inner-desc h3 {
+  margin: 1rem 0rem;
+}
+
+.inner-desc li {
+  margin-left: 1rem;
+}
+
+.wrapper-desc button {
+  width: 20rem;
+  height: 3rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #2bb04a;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+/* footer */
+
+footer {
+  width: 100%;
+  background-color: black;
+  height: auto;
+  padding-top: 2rem;
+}
+
+.wrapper-footer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upper-footer {
+  width: 100%;
+}
+
+.upper-footer p {
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.middle-footer {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.content-footer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.content-footer h2 {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.content-footer p {
+  color: gray;
+  font-size: 1rem;
+}
+
+.payments {
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.payments h2 {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.payments .cards-pay {
+  width: 50%;
+  height: auto;
+}
+
+.cards-pay img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    width: 100%;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .search {
+    display: none;
+  }
+
+  nav {
+    width: 100%;
+  }
+  .offer {
+    width: 100%;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .offer h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .hero {
+    height: auto;
+  }
+  .wrapper-hero {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  .gallary {
+    width: 100%;
+    margin-bottom: 1rem;
+    height: auto;
+  }
+  .main {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  .form-main {
+    height: auto;
+    width: 100%;
+  }
+  .banner-middle {
+    padding: 2rem 0rem;
+    height: auto;
+    background: none;
+  }
+  .banner-middle .content {
+    width: 100%;
+  }
+  .banner-middle .content h2,
+  .banner-middle .content p {
+    width: 100%;
+  }
+  .list-middle {
+    padding: 1rem;
+    width: 100%;
+    flex-direction: column;
+  }
+  .list-middle .card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .banner {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+  .banner .content {
+    width: 100%;
+  }
+  .banner .content h2,
+  .banner .content p {
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 1rem;
+  }
+
+  .attach-image,
+  .attach-content {
+    width: 100%;
+  }
+
+  .even {
+    flex-direction: column-reverse;
+  }
+  .middle-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-footer {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 }
