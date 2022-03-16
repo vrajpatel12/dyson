@@ -24,7 +24,7 @@ const Footer=()=> {
                     <h2>
                     Why do we need your billing information?
                     </h2>
-                    <p>By joining this service, you will receive a 5-day trial of our partner's program. If you continue with a subscription beyond the 5-day trial period, you will be charged an amount on your credit card which varies depending on the choice of the tariff. When your contribution is deducted from your credit card or other payment method, you will have access to these services which are reserved exclusively for members of our partner's website..</p>
+                    <p>By joining this service, you will receive a 5-day trial of our partner&aposs program. If you continue with a subscription beyond the 5-day trial period, you will be charged an amount on your credit card which varies depending on the choice of the tariff. When your contribution is deducted from your credit card or other payment method, you will have access to these services which are reserved exclusively for members of our partner&aposs website..</p>
                     </div>    
                 </div>
                 <div className='payments'>

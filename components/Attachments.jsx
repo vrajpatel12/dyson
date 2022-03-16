@@ -17,7 +17,7 @@ const Attachments = () => {
             <div className="container even">
                 <div className="attach-content">
                     <h3>Styling concentrator</h3>
-                    <p>The wider, thinner design3 of the re-engineered Styling concentrator creates a high-velocity blade of air that's perfect for styling. And because the air is focused, you can style one section at a time – without disturbing the rest.</p>
+                    <p>The wider, thinner design3 of the re-engineered Styling concentrator creates a high-velocity blade of air that&aposs perfect for styling. And because the air is focused, you can style one section at a time – without disturbing the rest.</p>
                 </div>
                 <div className="attach-image">
                     <img src="/attach-02.jpeg" alt="image" />

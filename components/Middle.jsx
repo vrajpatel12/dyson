@@ -6,7 +6,7 @@ const Middle = () => {
         <div className='banner-middle'>
             <div className='content'>
                 <h2>Intelligent heat control helps protect your shine</h2>
-                <p>Unlike some others, the Dyson Supersonic™ hair dryer measures air temperature over 40 times a second, and regulates the heat. This prevents extreme heat damage, to help protect your hair's shine.</p>
+                <p>Unlike some others, the Dyson Supersonic™ hair dryer measures air temperature over 40 times a second, and regulates the heat. This prevents extreme heat damage, to help protect your hair&aposs shine.</p>
                 
             <a href='https://bluclixmedia.o18.click/c?o=17096764&m=5315&a=325185&sub_aff_id={pavan}' target={"_blank"}><button>Order Now</button></a>
             </div>
