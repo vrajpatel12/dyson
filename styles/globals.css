@@ -325,7 +325,7 @@ header hr {
 .banner-middle {
   width: 80%;
   margin: 0 auto;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
