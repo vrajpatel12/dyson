@@ -254,6 +254,13 @@ header hr {
   margin-top: 1rem;
 }
 
+.left-spec {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
 .spec p:nth-child(1) {
   font-weight: 700;
 }
