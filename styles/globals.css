@@ -491,6 +491,10 @@ button {
   align-items: baseline;
 }
 
+.attach-content h3 {
+  font-size: 1.2rem;
+}
+
 .desc {
   width: 100%;
   height: auto;
