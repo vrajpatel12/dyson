@@ -9,7 +9,7 @@ const Hero = () => {
         <div role={"feed"} className="wrapper-hero">
             <Galaary></Galaary>
             <Main></Main>
-            <ContactForm></ContactForm>
+            
         </div>
     </section>
   )
