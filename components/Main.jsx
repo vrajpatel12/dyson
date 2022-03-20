@@ -14,25 +14,11 @@ const Main = () => {
         </div>
         <h3>Hurry! Only 13 items left!</h3>
         <div className='spec'>
-            <p>Color</p>
-            <p>Prussian blue/rich copper</p>
+          <div className="left-spec"><p>Color</p><p>Brand</p><p>Gift Set Type</p><p>Model name/number</p><p>Power</p></div>
+          <div className="left-spec"><p>Prussian blue/rich copper</p><p>Dyson</p><p>GHair Care Sets</p><p>372428-01</p><p>1600W</p></div>
+        
         </div>
-        <div className='spec'>
-            <p>Brand</p>
-            <p>Dyson</p>
-        </div>
-        <div className='spec'>
-            <p>Gift Set Type</p>
-            <p>Hair Care Sets</p>
-        </div>
-        <div className='spec'>
-            <p>Model name/number</p>
-            <p>372428-01</p>
-        </div>
-        <div className='spec'>
-            <p>Power</p>
-            <p>1600W</p>
-        </div>
+        
             <a rel="noreferrer" href='https://bluclixmedia.o18.click/c?o=17096764&m=5315&a=325185&sub_aff_id={pavan}' target={"_blank"}>More product details</a>
     </div>
   )
