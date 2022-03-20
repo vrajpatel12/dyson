@@ -252,6 +252,7 @@ header hr {
   align-items: center;
   justify-content: space-between;
   margin-top: 1rem;
+  line-height: 0.5rem;
 }
 
 .left-spec {
