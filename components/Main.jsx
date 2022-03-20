@@ -6,10 +6,10 @@ const Main = () => {
         <h2>Special gift edition</h2>
         <h1>Dyson Supersonic™ hair dryer (Prussian blue/rich copper)</h1>
         <div className='price'>
-            <div className='discount'>- more than 99 %</div>
+            {/* <div className='discount'>- more than 99 %</div> */}
             <div className='mrp'>
-                <h3>UVP: 299.99£</h3>
-                <h2>2.51£</h2>
+                {/* <h3>UVP: 299.99£</h3> */}
+                <h2>FREE</h2>
             </div>
         </div>
         <h3>Hurry! Only 13 items left!</h3>

@@ -85,7 +85,7 @@ nav li {
 /* offer */
 
 .offer {
-  width: 60%;
+  width: 80%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem 0rem;
@@ -138,7 +138,7 @@ header hr {
 }
 
 .gallary {
-  width: 48%;
+  width: 40%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -196,7 +196,7 @@ header hr {
 .price {
   position: relative;
   width: 100%;
-  height: 120px;
+  height: auto;
   margin-bottom: 1rem;
 }
 
@@ -214,11 +214,11 @@ header hr {
   z-index: -1;
 }
 .mrp {
-  position: absolute;
+  /* position: absolute; */
   padding: 0.5rem 2rem;
   border: 1px solid black;
-  bottom: 0;
-  left: 0;
+  /* bottom: 0;
+  left: 0; */
   height: auto;
   display: flex;
   flex-direction: column;
@@ -261,7 +261,11 @@ header hr {
   align-items: baseline;
 }
 
-.spec p:nth-child(1) {
+.left-spec p {
+  margin-bottom: 1rem;
+}
+
+.left-spec:nth-child(1) p {
   font-weight: 700;
 }
 
@@ -419,6 +423,7 @@ button {
 }
 
 .banner {
+  margin-top: 2rem;
   width: 100%;
   height: 90vh;
   display: flex;
@@ -453,7 +458,7 @@ button {
 }
 
 .wrapper-attachments {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -522,6 +527,21 @@ button {
 
 .inner-desc li {
   margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.inner-desc li span {
+  font-weight: 700;
+}
+
+.wrapper-desc a {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .wrapper-desc button {
@@ -531,8 +551,7 @@ button {
   color: white;
   background-color: #2bb04a;
   border: none;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  /* margin: 0 auto; */
 }
 /* footer */
 
@@ -638,6 +657,7 @@ footer {
     height: auto;
   }
   .wrapper-hero {
+    width: 100%;
     height: auto;
     flex-direction: column;
     align-items: center;
@@ -695,6 +715,11 @@ footer {
     flex-direction: column;
     align-items: baseline;
     margin-top: 1rem;
+  }
+
+  .wrapper-attachments {
+    width: 100%;
+    padding: 1rem;
   }
 
   .attach-image,
