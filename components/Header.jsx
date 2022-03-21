@@ -7,6 +7,12 @@ import Offer from './Offer'
 const Header=() =>{
   return (
       <header>
+          <div className='upper-nav'>
+            <li>Home</li>
+            <li>Items for kitchen and bar</li>
+            <li>Pots and pans</li>
+          </div>
+      <hr />
           <div role={"feed"} className='header'>
             <div className='logo'>
                 <Image src="/logo/logo.svg" width="150px" height="80px"></Image>

@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import Image from 'next/image'
+import Label from './label';
 
 const Galaary = () => {
     const [image,setImage] = useState(1);
@@ -8,14 +9,18 @@ const Galaary = () => {
         {
             image===1?<div role={"figure"} className="main-img">
         <img src="/hero-01.png" ></img>
+        <Label></Label>
         </div>:image==2?
         <div role={"figure"} className="main-img">
+          <Label></Label>
         <img src="/hero-02.png" ></img>
         </div>:image==3?
         <div role={"figure"} className="main-img">
+          <Label></Label>
         <img src="/hero-03.png" ></img>
         </div>:
         <div role={"figure"} className="main-img">
+          <Label></Label>
         <img src="/hero-04.png" ></img>
         </div>
         }
