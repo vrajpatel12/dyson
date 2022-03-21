@@ -96,11 +96,44 @@ nav li {
   justify-content: space-between;
 }
 
+.label-circle {
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    /* display: -webkit-box; */
+    /* display: -ms-flexbox; */
+    display: flex;
+    /* -webkit-box-align: center; */
+    /* -ms-flex-align: center; */
+    align-items: center;
+    /* -webkit-box-pack: center; */
+    /* -ms-flex-pack: center; */
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    /* -webkit-transform: rotate(-10deg); */
+    transform: rotate(-10deg);
+    width: 120px;
+    height: 120px;
+    background: #00a900;
+    /* -webkit-box-shadow: inset 0 0 0 2px #fff, 0 0 0 2px #00a900, 0 0 10px 4px rgb(0 0 0 / 20%); */
+    box-shadow: inset 0 0 0 2px #fff, 0 0 0 2px #00a900, 0 0 10px 4px rgb(0 0 0 / 20%);
+    font-size: 1.5 emm;
+    font-weight: bolder;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #fff;
+}
+
 header hr {
   width: 100%;
   height: 0.5px;
   background-color: gray;
   border: none;
+}
+.upper-nav{
+  display: none;
 }
 
 .offer h2 {
@@ -148,6 +181,7 @@ header hr {
 }
 
 .main-img {
+  position: relative;
   width: 100%;
   height: auto;
   margin-bottom: 1rem;
@@ -365,6 +399,7 @@ header hr {
   width: 50%;
   margin: 0rem 0rem;
   margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 .content p {
   width: 50%;
@@ -380,9 +415,9 @@ button {
 .content a button {
   width: 100%;
   height: 3rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: black;
-  background-color: #68a023;
+  background-color: #79b928;
   border: none;
 }
 
@@ -392,7 +427,10 @@ button {
   text-align: left;
 }
 
-
+.middle h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
 
 .list-middle {
   width: 80%;
@@ -424,6 +462,7 @@ button {
 .card h3 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  font-weight: 400;
 }
 
 .card p {
@@ -438,6 +477,7 @@ button {
   display: flex;
   align-items: center;
   background: url("/banner.jpeg");
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -464,9 +504,10 @@ button {
 .attachments h2 {
   width: 100%;
   text-align: center;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   font-style: none;
   font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .wrapper-attachments {
@@ -503,7 +544,7 @@ button {
 }
 
 .attach-content h3 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-style: none;
   font-weight: 300;
   margin-bottom: 0.7rem
@@ -654,14 +695,31 @@ footer {
   .header {
     width: 100%;
     padding: 1rem;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
   .search {
     display: none;
   }
 
   nav {
+    /* width: 100%; */
+  }
+  nav li:nth-child(2),
+  nav li:nth-child(3){
+    display: none;
+  }
+  .upper-nav{
+    display: flex;
     width: 100%;
+    padding: 0.2rem 1rem;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .upper-nav li{
+    color: gray;
+    list-style: none;
+    font-size: 0.6rem;
+    margin-left: 1rem;
   }
   .offer {
     display: none;
@@ -688,6 +746,11 @@ footer {
     width: 100%;
     margin-bottom: 1rem;
     height: auto;
+  }
+
+  .label-circle {
+    top: 0;
+    left: 0;
   }
   .main {
     width: 100%;
@@ -716,7 +779,15 @@ footer {
     padding: 2rem 1rem;
     height: auto;
     width:100%;
-    background: none;
+    /* background: none; */
+    padding-top: 30px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    background-size: 200%;
+    background-position-y: bottom;
+    background-position-x: right;
+    min-height: 690px;
   }
   .banner-middle .content {
     width: 100%;
@@ -724,6 +795,10 @@ footer {
   .banner-middle .content h2,
   .banner-middle .content p {
     width: 100%;
+  }
+
+  .middle h2 {
+    margin-top: 2rem;
   }
   .list-middle {
     padding: 1rem;
@@ -738,6 +813,20 @@ footer {
     width: 100%;
     height: auto;
     padding: 1rem;
+    background-position-y: 100px;
+    background-position-x: 80%;
+    height: 700px;
+    align-items: baseline;
+    padding-top: 2rem;
+  }
+
+  .attachments h2 {
+    margin-bottom: 0rem;
+  }
+  .attach-content h3,
+  .attach-content p{
+    width: 100%;
+    text-align: center;
   }
   .banner .content {
     width: 100%;
@@ -785,5 +874,11 @@ footer {
   .wrapper-desc {
     width:100%;
     padding:1rem;
+  }
+  .middle .content h2{
+    padding: 0rem;
+  }
+  .left-spec p {
+    font-size: 0.8rem;
   }
 }
