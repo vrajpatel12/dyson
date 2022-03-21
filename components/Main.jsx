@@ -9,7 +9,7 @@ const Main = () => {
             {/* <div className='discount'>- more than 99 %</div> */}
             <div className='mrp'>
                 {/* <h3>UVP: 299.99£</h3> */}
-                <h2>FREE</h2>
+                <h2>Free</h2>
             </div>
         </div>
         <h3>Hurry! Only 13 items left!</h3>
