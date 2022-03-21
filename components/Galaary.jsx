@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Image from 'next/image'
-import Label from './label';
+import Label from './Label';
 
 const Galaary = () => {
     const [image,setImage] = useState(1);
